@@ -8,14 +8,13 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
     integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   
   <title>Frontend Mentor | Fylo landing page with two column layout</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; padding-bottom: 1rem; }
-    .attribution a { color: white;  }
+    .attribution { font-size: 11px; text-align: center; padding-top: 1rem; background: #07043b; padding-bottom: 1rem; }
+    .attribution a { color: white; background: #07043b;  }
   </style>
 </head>
 <body>
@@ -31,19 +30,19 @@
   </header>
   <main>   
     <section class='hero container'>
-      <div >
-        <h1 class="text-primary Open-Sans fw-7 text-center" data-aos="fade-left"> All your files in one secure location, accessible anywhere.</h1>
-        <p class='text-primary Open-Sans text-center fw-4' data-aos="fade-right">
+      <div>
+        <h1 class="text-primary Open-Sans fw-7 text-center"> All your files in one secure location, accessible anywhere.</h1>
+        <p class='text-primary Open-Sans text-center fw-4'>
           Fylo stores your most important files in one secure location. 
           Access them wherever you need, share and collaborate with friends, 
           family, and co-workers.
         </p>
-        <form data-aos="fade-left">
+        <form >
           <input type="email" name="email" class="Raleway" placeholder="Enter your email">
           <button type="submit" class="Raleway text-white fw-7">Get Started</button>
         </form>
       </div>
-      <div class = 'hero-image' data-aos="fade-right">
+      <div>
         <img src="./images/illustration-1.svg" alt="Main Illustration Person Placing Files" >
       </div>
     </section>
@@ -53,24 +52,24 @@
     </div>
     <section class="secondary-section">
       <div class="container">
-        <div class="secondary-img " data-aos="fade-left">
+        <div class="secondary-img">
           <img src="./images/illustration-2.svg" alt="People with message box illustration" >
         </div>
-        <div class="secondary-info" >
-          <h1 class="text-center Raleway fw-4 text-primary" data-aos="fade-right">
+        <div class="secondary-info">
+          <h1 class="text-center Raleway fw-4 text-primary">
             Stay productive, wherever you are
           </h1>
-          <p class="text-center fw-4 Open-Sans" data-aos="fade-left">          
+          <p class="text-center fw-4 Open-Sans">          
             Never let location be an issue when accessing your files. Fylo has you 
             covered for all of your file storage needs.
           </p>
-          <p class="text-center fw-4 Open-Sans" data-aos="fade-right">
+          <p class="text-center fw-4 Open-Sans">
             Securely share files and folders with friends, family and colleagues for 
             live collaboration. No email attachments required!
           </p>
-          <a href="http://" class="Open-Sans fw-4" data-aos="fade-right">See how Fylo works  <img src="./images/icon-arrow.svg" alt="See how Fylo Works" class="icon-arrow" > </a>
+          <a href="http://" class="Open-Sans fw-4">See how Fylo works  <img src="./images/icon-arrow.svg" alt="See how Fylo Works" class="icon-arrow"> </a>
           
-          <div class="testimonial" data-aos="fade-left">
+          <div class="testimonial">
             <div class="testimonial-container">
               <img src="./images/icon-quotes.svg" class= 'quote-icon'>
               <p class= 'Open-Sans text-primary text-left fw-4'>
@@ -91,21 +90,23 @@
     </section>
     <section class="early-access bg-secondary">
       <div>
-        <h1 class="text-white text-center Raleway fw-4 " data-aos="fade-right">
+        <h1 class="text-white text-center Raleway fw-4 ">
           Get early access today
         </h1>
-        <p class="text-white text-center Open-Sans fw-4" data-aos="fade-left">
+        <p class="text-white text-center Open-Sans fw-4">
           It only takes a minute to sign up and our free starter tier is extremely generous. 
           If you have any questions, our support team would be happy to help you.
         </p>
       </div>
-      <form data-aos="fade-right">
+      <form>
         <input type="email" name="email" placeholder="email@example.com">
         <button type="submit" class="text-center text-white">Get started for free</button>
       </form>
     </section>
+   
+
   </main>
-  <footer class="bg-primary" data-aos="zoom-in">
+  <footer class="bg-primary">
     <div class="contact-details">
       <img src="./images/logo-footer.svg" alt="Fylo Logo" class="footer-logo">
       <ul class='contacts'>
@@ -130,20 +131,12 @@
       <li ><a href="http://www.facebook.com"><i class="fab fa-facebook-f "></i></a></li>
       <li ><a href="http://www.facebook.com"><i class="fab fa-twitter "></i></i></a></li>
       <li ><a href="http://www.facebook.com"><i class="fab fa-instagram "></i></a></li>
+
     </ul>
   </footer>
-  <p class="attribution bg-primary">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="https://https://www.facebook.com/tawanda.banda.37">TBanda27</a>.
-  </p>
+  <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://https://www.facebook.com/tawanda.banda.37">TBanda27</a>.
+    </p>
 </body>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-  AOS.init(
-    {
-      offset: 400,
-      duration: 1000
-    }
-  );
-</script>
 </html>
